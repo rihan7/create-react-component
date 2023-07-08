@@ -1,7 +1,7 @@
 {
-  "name": "create-react-component",
+  "name": "@rihan.taher/create-react-component-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "command: npx component path(with component name)",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -14,5 +14,25 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "React",
+    "Typescript",
+    "Javascript",
+    "css",
+    "html",
+    "tsx",
+    "jsx",
+    "component",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rihan7/create-react-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rihan7/create-react-component/issues"
+  },
+  "homepage": "https://github.com/rihan7/create-react-component#readme"
 }
