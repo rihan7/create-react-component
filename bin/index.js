@@ -91,13 +91,10 @@ function getSetting () {
       let data = fs.readFileSync(config_path,  'utf8')
       
       setting = JSON.parse(data)
-      console.log(data);
    } catch (error) {
-      console.log(error)
       throw Error('config file read error')
    }
 
-   console.log(setting)
 }
 
 const setSetting =  () => {
@@ -128,7 +125,6 @@ const setSetting =  () => {
       let data = JSON.stringify(setting, null, 4)
       fs.writeFileSync(config_path, data)
    } catch (error) {
-      console.log(error)
       throw Error('config file write error')
    }
 }

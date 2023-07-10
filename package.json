@@ -1,7 +1,7 @@
 {
   "name": "@rihan.taher/create-react-component-cli",
-  "version": "1.0.0",
-  "description": "command: npx component path(with component name)",
+  "version": "1.0.2",
+  "description": "Create react or typescript component with command line",
   "main": "index.js",
   "type": "module",
   "scripts": {
